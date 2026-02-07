@@ -1,0 +1,1 @@
+<form method='post'><textarea name='detail'></textarea><button>Save</button></form>
