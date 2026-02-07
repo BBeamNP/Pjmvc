@@ -1,4 +1,4 @@
-
+<a href="index.php?action=politicians">นักการเมือง</a>
 <ul>
 <?php foreach ($promises as $p): ?>
     <li style="margin-bottom:8px;">

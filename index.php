@@ -32,6 +32,10 @@ switch ($action) {
     case 'update':
         (new PromiseController())->addUpdate($id);
         break;
+    case 'politicians':
+    (new PoliticianController())->listWithPromises();
+    break;
+
     case 'politician':
         (new PoliticianController())->show($id);
         break;

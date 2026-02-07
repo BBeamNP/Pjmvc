@@ -8,5 +8,14 @@ class PoliticianController {
         $promises = (new Promise())->getByPolitician($id);
         include 'views/politicians/show.php';
     }
+    public function listWithPromises() {
+    require_once 'models/Politician.php';
+
+    $model = new Politician();
+    $politicians = $model->getAllPoliticians();
+
+    include 'views/politicians/show.php';
+}
+
 }
 ?>
